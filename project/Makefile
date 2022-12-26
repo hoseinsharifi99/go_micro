@@ -32,7 +32,7 @@ build_broker:
 ## build auth
 build_auth:
 	@echo Building auth binary...
-	chdir ..\authentication_service && set GOOS=linux&& set GOARCH=amd64&& set CGO_ENABLED=0 && go build -o ${AUTH_BINARY} ./cmd/api
+	chdir ..\authentication-service && set GOOS=linux&& set GOARCH=amd64&& set CGO_ENABLED=0 && go build -o ${AUTH_BINARY} ./cmd/api
 	@echo Done!
  
 

@@ -15,8 +15,8 @@ services:
 
   authentication-service:
     build:
-      context: ./../authentication_service
-      dockerfile: ./../authentication_service/authentication-service.dockerfile
+      context: ./../authentication-service
+      dockerfile: ./../authentication-service/authentication-service.dockerfile
     restart: always
     ports:
       - "8081:80"

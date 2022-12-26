@@ -10,7 +10,7 @@
 			"path": "project"
 		},
 		{
-			"path": "authentication_service"
+			"path": "authentication-service"
 		}
 	]
 }
